@@ -1,0 +1,594 @@
+Another Astonishingly Anguished Worker
+
+# BITSY VERSION 8.14
+
+! VER_MAJ 8
+! VER_MIN 14
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+0,82,204
+128,159,255
+255,255,255
+NAME town
+
+ROOM 0
+a,a,a,i,a,a,a,a,0,a,a,a,a,a,a,a
+b,0,g,0,g,0,b,0,0,0,a,0,0,0,0,a
+b,f,f,f,f,f,b,0,0,0,a,f,f,0,f,a
+b,h,0,0,0,0,b,0,0,0,c,0,0,0,0,a
+b,0,0,0,0,h,b,0,0,j,b,0,h,0,h,a
+b,h,0,0,0,d,b,0,0,0,a,a,a,a,a,a
+a,b,b,c,b,b,a,0,0,0,a,0,0,0,0,a
+0,0,0,0,0,0,j,0,0,0,b,g,0,0,g,b
+a,a,a,0,0,0,0,0,0,0,b,0,0,0,0,b
+a,0,a,j,0,0,0,0,0,0,b,0,0,0,g,b
+a,0,c,0,0,0,0,0,j,0,a,0,0,0,0,a
+a,a,a,a,0,0,0,0,0,0,a,a,c,c,a,a
+e,0,d,a,0,0,0,0,0,0,0,0,0,0,0,0
+a,c,a,a,0,j,0,0,0,0,0,0,0,0,j,0
+0,0,0,c,0,0,0,0,j,0,j,j,0,a,a,a
+0,0,0,a,0,0,0,0,j,j,0,j,0,b,0,0
+NAME Town
+PAL 0
+TUNE 2
+
+ROOM 1
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,0,j,0,0,0,0,k,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,k,0,0,0,0,0,j,0,0,a
+a,0,k,0,0,0,0,0,0,0,0,0,0,k,0,a
+a,0,0,a,a,b,b,a,a,a,a,a,a,0,0,a,
+a,k,0,a,0,0,g,0,a,d,0,e,a,0,j,a
+a,0,0,b,0,0,0,0,a,0,0,0,b,0,0,a
+a,0,k,b,0,0,0,0,a,a,c,a,b,0,0,a
+a,j,0,a,a,c,a,a,a,0,0,0,a,0,0,a
+a,0,0,b,0,0,0,0,0,0,0,0,b,k,0,a
+a,k,0,b,0,h,0,0,0,0,f,f,b,0,0,a
+a,0,0,a,0,0,0,0,0,0,0,d,a,0,0,a,
+a,k,k,a,a,b,b,a,c,b,b,a,a,j,0,a,
+a,0,0,0,0,0,0,0,0,0,0,k,0,0,k,a,
+a,0,j,0,0,k,0,0,0,0,k,0,0,0,0,a
+a,a,a,a,a,a,a,a,c,a,a,a,a,a,a,a
+NAME House
+EXT 8,15 0 8,1
+PAL 0
+
+TIL a
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME wall
+WAL true
+
+TIL b
+11111111
+11111111
+11100111
+11000011
+11000011
+11100111
+11111111
+11111111
+NAME window
+WAL true
+
+TIL c
+00000000
+01111110
+01000010
+01000010
+01000010
+01001010
+01000010
+01000010
+NAME door
+
+TIL d
+00000000
+00000000
+00000000
+00010000
+00001000
+00111100
+00011000
+00011000
+NAME sink
+
+TIL e
+01000010
+01011010
+01000110
+01000110
+01000010
+01000010
+01000010
+01000010
+NAME shower
+
+TIL f
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+11111111
+NAME bar
+WAL true
+
+TIL g
+00000000
+00000000
+00111100
+00100100
+00100100
+00111100
+01111110
+01000010
+NAME work
+
+TIL h
+00000000
+00000000
+00000000
+00000000
+00000000
+10000001
+10011001
+11011011
+NAME table
+WAL true
+
+TIL i
+00011000
+00111100
+01111110
+11111111
+01011010
+01011010
+01011010
+11111111
+NAME bank
+WAL true
+
+TIL j
+00111000
+01111100
+01111110
+00011000
+00111000
+00011000
+00011100
+00011000
+NAME tree
+
+TIL k
+10001000
+01000000
+00000010
+00100000
+01010100
+00101010
+01000100
+00000001
+NAME flower
+
+SPR A
+00000000
+00011000
+00011000
+00111100
+01011010
+00011000
+00011000
+00100100
+POS 0 1,15
+
+SPR a
+00011000
+00011000
+01111110
+10111101
+00111100
+00111100
+00111100
+01000010
+NAME tall
+DLG 0
+POS 0 6,11
+
+SPR b
+00000000
+00000000
+00000000
+00000000
+00000011
+11111111
+11111111
+10000001
+NAME bed
+DLG 3
+POS 0 0,15
+
+SPR c
+00000000
+00000000
+00111100
+00100100
+00100100
+00111100
+01111110
+01000010
+NAME work
+DLG 5
+POS 0 11,9
+
+SPR d
+00000000
+11000000
+11000000
+10100000
+11000000
+10000000
+01000000
+10000000
+NAME coworker
+DLG 4
+POS 0 11,8
+
+SPR e
+00000000
+00011000
+00011000
+00111111
+01011001
+11111111
+11111111
+11111111
+NAME bartender
+DLG 6
+POS 0 13,2
+
+SPR f
+00000000
+00011000
+00111100
+01011010
+00111100
+11111111
+11111111
+11111111
+NAME clerk
+DLG 7
+POS 0 4,2
+
+SPR g
+00000000
+01111110
+01010010
+01011010
+01010110
+01100110
+01111110
+01000010
+NAME moneymaker
+DLG 8
+POS 0 1,4
+
+SPR h
+00000000
+01111110
+01000010
+01000010
+01000010
+01001010
+01000010
+01000010
+NAME door
+DLG 9
+POS 0 8,0
+
+SPR i
+00000000
+00011000
+00011000
+01111110
+01011010
+11111111
+11111111
+11111111
+NAME shady
+DLG a
+POS 0 1,9
+
+SPR j
+00000000
+00000000
+00000000
+00000000
+00000011
+11111111
+11111111
+10000001
+NAME bed_house
+DLG b
+POS 1 4,5
+
+ITM 0
+00000000
+00000000
+00011000
+00100100
+00100100
+00011000
+00000000
+00000000
+NAME ring
+DLG 1
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+
+DLG 0
+"""
+{
+  - tall <= 10 ?
+     Hey !
+  - tall <= 25 ?
+     Hey honey !
+  - tall <= 50 ?
+    {wvy} Hey sweetie !{/wvy}
+  - tall <= 75 ?
+    {wvy} Hey cutie !{/wvy}
+  - tall >= 100 ?
+    {wvy} Hey handsome !{/wvy}{pg}{
+      - {item "0"} == 1 ?
+        Let's get married !
+    }
+}{tall = tall + 1}
+"""
+NAME tall dialog
+
+DLG 1
+
+NAME tea dialog
+
+DLG 2
+
+NAME key dialog
+
+DLG 3
+{alcohol = 0}{exit "0" 1 15 "fade_b"}
+NAME bed dialog
+
+DLG 4
+"""
+{
+  - coworker <= 10 ?
+     Hey !
+  - coworker <= 25 ?
+     How are you ?
+  - coworker <= 50 ?
+    {wvy} I guess today will be less boring...{/wvy}
+  - coworker <= 75 ?
+    {wvy} It's so nice seeing you here !{/wvy}
+  - coworker >= 100 ?
+    {wvy} Well, what a pleasant sight !{/wvy}{pg}{
+      - {item "0"} == 1 ?
+        Let's get married !
+    }
+}{coworker = coworker + 1}
+"""
+NAME coworker dialog
+
+DLG 5
+{money = money + 10}You made some money ! You have ${say money}
+NAME work dialog
+
+DLG 6
+"""
+$5 a pint !{pg}{
+  - money >= 5 ?
+     You drink a beer...{money = money - 5}{alcohol = alcohol + 1}{
+      - alcohol >= 5 ?
+        {shk}too many !{/shk}{alcohol = 0}{exit "0" 1 15 "wave"}
+    }
+  - else ?
+
+}
+"""
+NAME bartender dialog
+
+DLG 7
+"""
+{rbw}Do you want a house ? Only $500000 !{/rbw}{pg}{
+  - {item "1"} >= 1 ?
+     You already have one !
+  - money >= 500000 ?
+     Hey ! Here is your key !{item "1" {{item "1"} + 1}}
+  - else ?
+    {shk} Come back when you have money...{/shk}
+}
+"""
+NAME clerk dialog
+
+DLG 8
+"""
+Invest all ! Win all ! Get money quickly !{pg}{shuffle
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  - All lost...{money = 0}
+  -  You won !{money = money * 50}
+}
+"""
+NAME moneymaker dialog
+
+DLG 9
+"""
+{
+  - {item "1"} >= 1 ?
+    {exit "0" 0 0}
+}
+"""
+NAME door dialog
+
+DLG a
+"""
+Wedding ring for just $100 !{pg}{
+  - money >= 100 ?
+     Take one !{item "0" {{item "0"} + 1}}
+  - else ?
+    {shk} Get lost...{/shk}
+}
+"""
+NAME shady dialog
+
+DLG b
+{alcohol = 0}{exit "1" 4 6 "fade_b"}
+NAME bed_house dialog
+
+VAR money
+50
+
+VAR coworker
+0
+
+VAR tall
+0
+
+VAR alcohol
+0
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
