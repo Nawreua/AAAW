@@ -9,10 +9,16 @@ Another Astonishingly Anguished Worker
 ! TXT_MODE 0
 
 PAL 0
-0,82,204
-128,159,255
-255,255,255
+0,0,0
+232,25,0
+182,132,0
 NAME town
+
+PAL 1
+222,69,0
+255,255,255
+0,0,0
+NAME house
 
 ROOM 0
 a,a,a,i,a,a,a,a,0,a,a,a,a,a,a,a
@@ -54,7 +60,7 @@ a,0,j,0,0,k,0,0,0,0,k,0,0,0,0,a
 a,a,a,a,a,a,a,a,c,a,a,a,a,a,a,a
 NAME House
 EXT 8,15 0 8,1
-PAL 0
+PAL 1
 TUNE 2
 
 TIL a
